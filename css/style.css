@@ -1,0 +1,77 @@
+.gradient-background {
+  background: linear-gradient(300deg, #9376E0, #E893CF, #F3BCC8);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.google-map {
+    padding-top:50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 450px;
+    width: 600px;
+    left: 0;
+    top: 0;
+    position: relative;
+}
+
+.purple-text {
+  color: #9376E0;
+}
+
+.pink1-text {
+  color:#E893CF;
+}
+
+.pink2-text {
+  color:#F3BCC8;
+}
+
+.yellow-text {
+  color: #F6FFA6;
+}
+
+.white-text {
+  color: ivory;
+}
+
+.blue-text {
+  color: cornflowerblue;
+}
+
+#time{
+  background-color: ivory;
+}
+
+#RSVP{
+  background-color: ivory;
+}
+
+h1 {
+  font-family: 'Edu QLD Beginner', cursive;
+}
+
+p {
+  font-family: 'Patrick Hand', cursive;
+  font-family: 'Edu QLD Beginner', cursive;
+}
+
+h4 {
+  font-family: 'Patrick Hand', cursive;
+  font-family: 'Edu QLD Beginner', cursive;
+}
