@@ -16,6 +16,7 @@
   }
 }
 
+
 .map-responsive{
   overflow:hidden;
   padding-bottom:56.25%;
@@ -30,6 +31,7 @@
   width:100%;
   position:absolute;
 }
+
 
 .purple-text {
   color: #9376E0;
